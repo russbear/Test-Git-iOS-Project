@@ -21,6 +21,7 @@
 		D724EA9F19735BBA00F5B8D0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D724EA8119735BBA00F5B8D0 /* UIKit.framework */; };
 		D724EAA719735BBA00F5B8D0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D724EAA519735BBA00F5B8D0 /* InfoPlist.strings */; };
 		D724EAA919735BBA00F5B8D0 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D724EAA819735BBA00F5B8D0 /* Git_TestTests.m */; };
+		D724EAB419735E4F00F5B8D0 /* RVTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D724EAB319735E4F00F5B8D0 /* RVTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		D724EAA419735BBA00F5B8D0 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		D724EAA619735BBA00F5B8D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D724EAA819735BBA00F5B8D0 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		D724EAB219735E4F00F5B8D0 /* RVTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RVTest.h; sourceTree = "<group>"; };
+		D724EAB319735E4F00F5B8D0 /* RVTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RVTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				D724EA8F19735BBA00F5B8D0 /* Main.storyboard */,
 				D724EA9219735BBA00F5B8D0 /* RVViewController.h */,
 				D724EA9319735BBA00F5B8D0 /* RVViewController.m */,
+				D724EAB219735E4F00F5B8D0 /* RVTest.h */,
+				D724EAB319735E4F00F5B8D0 /* RVTest.m */,
 				D724EA9519735BBA00F5B8D0 /* Images.xcassets */,
 				D724EA8419735BBA00F5B8D0 /* Supporting Files */,
 			);
@@ -253,6 +258,7 @@
 				D724EA8E19735BBA00F5B8D0 /* RVAppDelegate.m in Sources */,
 				D724EA9419735BBA00F5B8D0 /* RVViewController.m in Sources */,
 				D724EA8A19735BBA00F5B8D0 /* main.m in Sources */,
+				D724EAB419735E4F00F5B8D0 /* RVTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
